@@ -15,7 +15,7 @@ const FamilyMember = ({ member, addMember }) => {
       <p className="font-bold text-lg mb-2">{member.name}</p>
       
       {/* Form to add new member */}
-      <div className="mb-4">
+      <div className="">
         <input
           type="text"
           value={newMemberName}
